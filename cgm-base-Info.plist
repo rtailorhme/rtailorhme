@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	</array>
+	<key>CFBundleDisplayName</key>
+	<string>HealthifyMe</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>HealthifyMe uses Bluetooth to receive glucose data and alarms from several transmitters and Libre 2 sensors.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>HealthifyMe uses Bluetooth to receive glucose data and alarms from several transmitters and Libre 2 sensors.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>processing</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
+    <key>NFCReaderUsageDescription</key>
+    <string>NFC Tag accessed to receive glucose data and alarms from several transmitters and Libre 2 sensors. </string>
+</dict>
+</plist>
