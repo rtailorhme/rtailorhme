@@ -100,6 +100,8 @@ class LineChart: UIView {
         self.layer.addSublayer(gridLayer)
         self.addSubview(scrollView)
         self.backgroundColor = UIColor.white
+        
+        addPinchGestureRecognizer()
     }
     
     override func layoutSubviews() {
@@ -474,5 +476,28 @@ class LineChart: UIView {
             self.scrollView.setContentOffset(bottomOffset, animated: true)
         }
         
+    }
+}
+
+extension LineChart {
+    func addPinchGestureRecognizer() {
+        let pinchGesture = UIPinchGestureRecognizer(target: self, action:#selector(ginchGestureRecognizer(_:)))
+        addGestureRecognizer(pinchGesture)
+    }
+    
+    @IBAction func ginchGestureRecognizer(_ pinch: UIPinchGestureRecognizer) {
+        
+        switch(pinch.state) {
+        
+        case .began:
+            print("began")
+        case .changed:
+            print("changed")
+        case .ended:
+            print("ended")
+            
+        default:
+            print("nothing")
+        }
     }
 }
