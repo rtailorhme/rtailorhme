@@ -21,7 +21,7 @@ struct ContentView: View {
         NavigationView {
             VStack(alignment: .leading, spacing: 10.0) {
 
-                
+                DateScrollerView()
                 ChartUIView().frame(height: 400)
                 BloodGlucoseView().environmentObject(app)
                 

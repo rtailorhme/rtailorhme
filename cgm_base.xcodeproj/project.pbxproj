@@ -12,6 +12,7 @@
 		479CF209272C0F7E000C64D0 /* DotCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479CF206272C0F7E000C64D0 /* DotCALayer.swift */; };
 		479CF20A272C0F7E000C64D0 /* CurveAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479CF207272C0F7E000C64D0 /* CurveAlgorithm.swift */; };
 		479CF217272C47F8000C64D0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479CF216272C47F8000C64D0 /* Launch Screen.storyboard */; };
+		47FF2CE5273D0F2300444ECE /* DateScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF2CE4273D0F2200444ECE /* DateScrollerView.swift */; };
 		7856B19B271EE84C00EF08FE /* CGMBaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856B19A271EE84C00EF08FE /* CGMBaseApp.swift */; };
 		7856B19F271EE84F00EF08FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7856B19E271EE84F00EF08FE /* Assets.xcassets */; };
 		7856B1A2271EE84F00EF08FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7856B1A1271EE84F00EF08FE /* Preview Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		479CF206272C0F7E000C64D0 /* DotCALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotCALayer.swift; sourceTree = "<group>"; };
 		479CF207272C0F7E000C64D0 /* CurveAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveAlgorithm.swift; sourceTree = "<group>"; };
 		479CF216272C47F8000C64D0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		47FF2CE4273D0F2200444ECE /* DateScrollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScrollerView.swift; sourceTree = "<group>"; };
 		7856B197271EE84C00EF08FE /* cgm_base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cgm_base.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7856B19A271EE84C00EF08FE /* CGMBaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGMBaseApp.swift; sourceTree = "<group>"; };
 		7856B19E271EE84F00EF08FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				479CF207272C0F7E000C64D0 /* CurveAlgorithm.swift */,
 				479CF206272C0F7E000C64D0 /* DotCALayer.swift */,
 				479CF205272C0F7E000C64D0 /* LineChart.swift */,
+				47FF2CE4273D0F2200444ECE /* DateScrollerView.swift */,
 			);
 			path = Chart;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				479CF20A272C0F7E000C64D0 /* CurveAlgorithm.swift in Sources */,
 				E3F8C2212726BF13002D7B7A /* CGMManager.swift in Sources */,
 				7856B1C6271EEB5B00EF08FE /* NFC.swift in Sources */,
+				47FF2CE5273D0F2300444ECE /* DateScrollerView.swift in Sources */,
 				78E4C635271F52F000764765 /* BluetoothDelegate.swift in Sources */,
 				78738CDC272C058500A41664 /* StorageModel.xcdatamodeld in Sources */,
 				828D15F026D2E2CB835271A5 /* DataStorageLayer.swift in Sources */,

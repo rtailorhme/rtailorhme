@@ -102,6 +102,7 @@ class LineChart: UIView {
         self.backgroundColor = UIColor.white
         
         addPinchGestureRecognizer()
+        addTapGestureRecognizer()
     }
     
     override func layoutSubviews() {
@@ -499,5 +500,16 @@ extension LineChart {
         default:
             print("nothing")
         }
+    }
+}
+
+extension LineChart {
+    func addTapGestureRecognizer() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
+        addGestureRecognizer(tap)
+    }
+    
+    @IBAction func handleTap(_ sender: UITapGestureRecognizer) {
+        print(sender.location(in: self))
     }
 }
